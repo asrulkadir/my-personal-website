@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Personal Website</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="container-lg">
+        <a class="navbar-brand" href="#">Asrul K</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="parallax"></div>
+    <section class="banner">
+      <div class="banner-carve">
+        <div class="overlay">
+          <h1>Hi I'm Asrul K</h1>
+          <h3>Web Developer and Electrical Engineer</h3>
+          <a
+            href="/img/Asrul Kadir General CV.pdf"
+            class="btn btn-warning rounded-pill"
+          >
+            <b>Download my CV</b>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h1 class="text-decoration-underline text-center">About Me</h1>
+      <div class="container-sm" data-aos="fade-up" data-aos-duration="1500">
+        <div class="bg-primary rounded shadow-sm p-3 mb-5">
+          <p class="text-center fs-5">
+            I am interested to learn to program, I started learning programming
+            in 2020, I learned Javascript language to build a web app. My study
+            result about programming is I can build a web static using HTML,
+            CSS, and Javascript, and now I am starting to learn ReactJs and
+            NodeJS to improve my skill to become a Web Developer MERN Stack, I
+            hope my skill can be useful for the people who needs me. My
+            background is not from IT, I am from Electrical Engineer at the
+            State University of Makassar, but I am fun to do coding. In my
+            major, I have a skill in electrical engineering especially Arduino,
+            Electrical Installation and Maintenance, and Electronic Repairing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#364BF7"
+        fill-opacity="1"
+        d="M0,160L26.7,176C53.3,192,107,224,160,213.3C213.3,203,267,149,320,117.3C373.3,85,427,75,480,90.7C533.3,107,587,149,640,186.7C693.3,224,747,256,800,256C853.3,256,907,224,960,181.3C1013.3,139,1067,85,1120,96C1173.3,107,1227,181,1280,186.7C1333.3,192,1387,128,1413,96L1440,64L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+      ></path>
+    </svg>
+
+    <section id="skills" class="skills">
+      <h1 class="text-decoration-underline text-center">Skills</h1>
+      <div class="container-sm skill-wrapper">
+        <div
+          class="card skill-card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <img
+            src="./img/logo/html-logo.png"
+            class="card-img-top"
+            alt="Html Logo"
+            width="100%"
+            height="90%"
+          />
+          <div class="card-body p-0 bg-info rounded">
+            <h5 class="card-text text-center">HTML</h5>
+          </div>
+        </div>
+        <div
+          class="card skill-card"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
+          <img
+            src="./img/logo/css-logo.png"
+            class="card-img-top"
+            alt="CSS Logo"
+            width="100%"
+            height="90%"
+          />
+          <div class="card-body p-0 bg-info rounded">
+            <h5 class="card-text text-center">CSS</h5>
+          </div>
+        </div>
+        <div
+          class="card skill-card"
+          data-aos="flip-down"
+          data-aos-duration="1500"
+        >
+          <img
+            src="./img/logo/javascript-logo.png"
+            class="card-img-top"
+            alt="Javascript Logo"
+            width="100%"
+            height="90%"
+          />
+          <div class="card-body p-0 bg-info rounded">
+            <h5 class="card-text text-center">Javascript</h5>
+          </div>
+        </div>
+        <div
+          class="card skill-card"
+          data-aos="flip-up"
+          data-aos-duration="1500"
+        >
+          <img
+            src="./img/logo/bootstrap-logo.png"
+            class="card-img-top"
+            alt="Bootstrap Logo"
+            width="100%"
+            height="90%"
+          />
+          <div class="card-body p-0 bg-info rounded">
+            <h5 class="card-text text-center">Bootstrap</h5>
+          </div>
+        </div>
+        <div
+          class="card skill-card"
+          data-aos="flip-right"
+          data-aos-duration="1500"
+        >
+          <img
+            src="./img/logo/react-logo.png"
+            class="card-img-top"
+            alt="ReactJS Logo"
+            width="100%"
+            height="90%"
+          />
+          <div class="card-body p-0 bg-info rounded">
+            <h5 class="card-text text-center">ReactJS</h5>
+          </div>
+        </div>
+        <div
+          class="card skill-card"
+          data-aos="flip-left"
+          data-aos-duration="1500"
+        >
+          <img
+            src="./img/logo/typescript-logo.png"
+            class="card-img-top"
+            alt="Typescript Logo"
+            width="100%"
+            height="90%"
+          />
+          <div class="card-body p-0 bg-info rounded">
+            <h5 class="card-text text-center">Typescript</h5>
+          </div>
+        </div>
+        <div
+          class="card skill-card"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
+          <img
+            src="./img/logo/arduino-logo.png"
+            class="card-img-top"
+            alt="Arduino Logo"
+            width="100%"
+            height="90%"
+          />
+          <div class="card-body p-0 bg-info rounded">
+            <h5 class="card-text text-center">Arduino</h5>
+          </div>
+        </div>
+        <div
+          class="card skill-card"
+          data-aos="zoom-in-down"
+          data-aos-duration="1500"
+        >
+          <img
+            src="./img/logo/proteus-logo.png"
+            class="card-img-top"
+            alt="Proteus Logo"
+            width="100%"
+            height="90%"
+          />
+          <div class="card-body p-0 bg-info rounded">
+            <h5 class="card-text text-center">Proteus</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+      style="background-color: #afb8ff"
+    >
+      <path
+        fill="#364BF7"
+        fill-opacity="1"
+        d="M0,160L26.7,176C53.3,192,107,224,160,213.3C213.3,203,267,149,320,117.3C373.3,85,427,75,480,90.7C533.3,107,587,149,640,186.7C693.3,224,747,256,800,256C853.3,256,907,224,960,181.3C1013.3,139,1067,85,1120,96C1173.3,107,1227,181,1280,186.7C1333.3,192,1387,128,1413,96L1440,64L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"
+      ></path>
+    </svg>
+
+    <section id="portfolio" class="portfolio">
+      <h1 class="text-decoration-underline text-center">Portfolio</h1>
+      <div class="container-sm portfolio-wrapper">
+        <div
+          class="card portfolio-card"
+          data-aos="zoom-in-down"
+          data-aos-duration="1500"
+        >
+          <a
+            href="/img/portfolio/monitoring-suhu-sarang-burung-walet.jpeg"
+            target="_blank"
+          >
+            <img
+              src="/img/portfolio/monitoring-suhu-sarang-burung-walet.jpeg"
+              class="card-img-top img-portfolio"
+              alt="Swallow's Nest Temperature Monitoring"
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Swallow's Nest Temperature Monitoring</h5>
+            <p class="card-text">
+              This is the project I worked on with my friends, this project is
+              my friend's thesis, I help him to design an electronic circuit and
+              write the program, this project was used to monitor swallow's nest
+              temperature and keep the temperature stable
+            </p>
+            <a
+              href="https://github.com/asrulkadir/Kontrol_Suhu_Sarang_Walet"
+              class="btn btn-primary"
+              target="_blank"
+              >View source code</a
+            >
+          </div>
+        </div>
+        <div
+          class="card portfolio-card"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
+          <a href="/img/portfolio/home-fence-control.jpg" target="_blank">
+            <img
+              src="/img/portfolio/home-fence-control.jpg"
+              class="card-img-top img-portfolio"
+              alt="Home Fence Control"
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Home Fence Control With Blynk</h5>
+            <p class="card-text">
+              This is the project I worked on with my friends, this project is
+              my friend's thesis, I help him to design an electronic circuit and
+              write the program, this project was used to control the home fence
+              with Blynk app who downloaded by Android or iPhone, this project
+              use ESP32 to connect Blynk app by wifi, and control home fence
+              through Android or iPhone
+            </p>
+            <a
+              href="https://github.com/asrulkadir/Home_Fence_Control_Use_Blynk"
+              class="btn btn-primary"
+              target="_blank"
+              >View source code</a
+            >
+          </div>
+        </div>
+        <div
+          class="card portfolio-card"
+          data-aos="zoom-in-down"
+          data-aos-duration="1500"
+        >
+          <a href="/img/portfolio/electrical-monitoring.jpg" target="_blank">
+            <img
+              src="/img/portfolio/electrical-monitoring.jpg"
+              class="card-img-top img-portfolio"
+              alt="Electrical Monitoring"
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Electrical Monitoring</h5>
+            <p class="card-text">
+              This project is my thesis, which is used to monitor in real-time
+              electrical energy, current, and voltage. The monitoring result
+              will be sent through the Blynk app who can be downloaded by
+              Android or iPhone. I used NodeMCU to connect Blynk App with my
+              device through a wifi connection and use PZEM-004T as a sensor to
+              measure electrical energy
+            </p>
+            <a
+              href="https://github.com/asrulkadir/Electrical_Monitoring_With_Arduino"
+              class="btn btn-primary"
+              target="_blank"
+              >View source code</a
+            >
+          </div>
+        </div>
+        <div
+          class="card portfolio-card"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
+          <a
+            href="/img/portfolio/very-simple-company-profile.jpg"
+            target="_blank"
+          >
+            <img
+              src="/img/portfolio/very-simple-company-profile.jpg"
+              class="card-img-top img-portfolio"
+              alt="Electrical Monitoring"
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Very Simple Company Profile Website</h5>
+            <p class="card-text">
+              I created a profile company website example with bootstrap, this
+              website is very simple. I will develop it more and make it look
+              more attractive and responsive if I have time to do it :D.
+            </p>
+            <a
+              href="https://github.com/asrulkadir/simple-profil-company-website"
+              class="btn btn-primary"
+              target="_blank"
+              >View source code</a
+            >
+          </div>
+        </div>
+        <div
+          class="card portfolio-card"
+          data-aos="zoom-in-down"
+          data-aos-duration="1500"
+        >
+          <a href="/img/portfolio/web-quran.png" target="_blank">
+            <img
+              src="/img/portfolio/web-quran.png"
+              class="card-img-top img-portfolio"
+              alt="Electrical Monitoring"
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Web Quran</h5>
+            <p class="card-text">
+              I create web Quran simple with vanilla Javascript, this web is
+              single page, I calling API use fetch javascript, the API is from
+              <a
+                href="https://api-alquranid.herokuapp.com/surah"
+                target="_blank"
+              >
+                api-alquran</a
+              >
+            </p>
+            <a
+              href="https://github.com/asrulkadir/web-quran"
+              class="btn btn-primary"
+              target="_blank"
+              >View source code</a
+            >
+          </div>
+        </div>
+        <div
+          class="card portfolio-card"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
+          <a href="/img/portfolio/web-cake.jpg" target="_blank">
+            <img
+              src="/img/portfolio/web-cake.jpg"
+              class="card-img-top img-portfolio"
+              alt="Electrical Monitoring"
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Web Cake</h5>
+            <p class="card-text">
+              I create a web Cake simple but this project hasn't finished :D, I
+              am planning to make this website to be e-commerce simple but I
+              haven't had time to create it, maybe someday I will finish this
+              project and to be a simple e-commerce website, for more
+              information, this is my sister's cake business :D
+            </p>
+            <a
+              href="https://github.com/asrulkadir/web-cake"
+              class="btn btn-primary"
+              target="_blank"
+              >View source code</a
+            >
+          </div>
+        </div>
+        <div
+          class="card portfolio-card"
+          data-aos="zoom-in-down"
+          data-aos-duration="1500"
+        >
+          <a href="/img/portfolio/E-commerce-T-shirt.jpg" target="_blank">
+            <img
+              src="/img/portfolio/E-commerce-T-shirt.jpg"
+              class="card-img-top img-portfolio"
+              alt="Electrical Monitoring"
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">E-commerce T-shirt</h5>
+            <p class="card-text">
+              This is e-commerce web app but haven't finished, it build by
+              reactJS. I am still learning ReactJS to built and finish this app.
+              I hope can finish this project with reactJS.
+            </p>
+            <a
+              href="https://github.com/asrulkadir/my-first-web-reactJs"
+              class="btn btn-primary"
+              target="_blank"
+              >View source code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="text-center">&COPY; Copyright Asrul K. All right reserved</p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
